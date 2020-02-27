@@ -9,5 +9,7 @@ class Circle {
     return this.radius * 2;
   }
   
-
+  get circumference() {
+    return diameter() * 3.14;
+  }
 }
