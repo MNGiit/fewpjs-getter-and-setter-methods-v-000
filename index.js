@@ -8,4 +8,8 @@ class Circle {
   get diameter() {
     return this.diameter;
   }
+  
+  set diameter() {
+    
+  }
 }
