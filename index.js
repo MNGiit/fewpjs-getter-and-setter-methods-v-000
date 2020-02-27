@@ -21,8 +21,8 @@ class Circle {
     return (this.radius * 2) * 3.14;
   }
 
-  set area(area) {
-    this.radius = Math.sqrt(area / 3.14);
+  set area(a) {
+    this.radius = Math.sqrt(a / 3.14);
   }
 
   get area() {
