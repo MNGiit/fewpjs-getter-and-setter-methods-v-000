@@ -1,4 +1,5 @@
 // Add your Circle class here
+let pi = 3.14;
 class Circle {
   constructor(radius) {
     this.radius = radius;
