@@ -8,23 +8,23 @@ class Circle {
     return this.radius * 2;
   }
 
-  set diameter( diameter ) {
+  set diameter(diameter) {
     this.radius = diameter / 2;
   }
 
   get circumference() {
-    return ( this.radius * 2 ) * 3.14;
+    return (this.radius * 2) * 3.14;
   }
 
   set circumference( circumference ) {
-    this.radius = circumference / ( 3.14 * 2 );
+    this.radius = circumference / (3.14 * 2);
   }
 
   get area() {
-    return pi * ( this.radius * this.radius );
+    return pi * (this.radius * this.radius);
   }
 
   set area(area) {
-    this.radius = Math.sqrt( area / 3.14 );
+    this.radius = Math.sqrt(area / 3.14);
   }
 }
