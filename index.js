@@ -5,6 +5,6 @@ class Circle {
   }
   
   get diameter() {
-    return this.diameter;
+    return this.radius * this.radius * 3.14;
   }
 }
