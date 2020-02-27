@@ -9,7 +9,5 @@ class Circle {
     return this.diameter;
   }
   
-  set diameter() {
-    
-  }
+
 }
